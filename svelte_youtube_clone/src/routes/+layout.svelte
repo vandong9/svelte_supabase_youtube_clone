@@ -2,10 +2,11 @@
 	import Header from './Header.svelte';
 	import './styles.scss';
 	import '../app.scss';
+	import TopMenu from '../shared/TopMenu.svelte';
 </script>
 
 <div class="app">
-	<Header />
+	<TopMenu />
 
 	<main>
 		<slot />
