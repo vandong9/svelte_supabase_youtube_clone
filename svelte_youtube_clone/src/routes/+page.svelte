@@ -1,5 +1,7 @@
 <script lang="ts">
-	export let data: any;
+	export let data = {"countries" : [{
+		name: "hi"
+	}]}
 	let { countries } = data;
 	$: ({ countries } = data);
 </script>

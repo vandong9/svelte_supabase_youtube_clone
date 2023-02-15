@@ -1,5 +1,4 @@
 <script>
-	import Header from './Header.svelte';
 	import './styles.scss';
 	import '../app.scss';
 	import TopMenu from '../shared/TopMenu.svelte';
@@ -19,6 +18,7 @@
 
 <style>
 	.app {
+		background-color: var(--background-color);
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
