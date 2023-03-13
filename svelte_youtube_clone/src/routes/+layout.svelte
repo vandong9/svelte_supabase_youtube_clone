@@ -11,7 +11,7 @@ import '@skeletonlabs/skeleton/styles/all.css';
 import '../app.scss';
 
 
-	import TopMenu from '../shared/TopMenu.svelte';
+	import TopMenu from '../shared/controls/TopMenu.svelte';
 </script>
 
 <div class="app">
