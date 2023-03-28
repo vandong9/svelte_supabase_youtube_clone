@@ -1,7 +1,11 @@
 <script lang="ts">
-	export let data = {"countries" : [{
-		name: "hi"
-	}]}
+	let data = {
+		countries: [
+			{
+				name: 'hi'
+			}
+		]
+	};
 	let { countries } = data;
 	$: ({ countries } = data);
 </script>

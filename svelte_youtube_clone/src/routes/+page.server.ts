@@ -7,13 +7,16 @@
 // 	};
 // }
 
-export async function load() {
-	const data = {"countries" : [{
-		name: "hi"
-	}]}
+// export async function load() {
+// 	const data = {
+// 		countries: [
+// 			{
+// 				name: 'hi'
+// 			}
+// 		]
+// 	};
 
-	return {
-		countries: data
-	}
-}
-
+// 	return {
+// 		countries: data
+// 	};
+// }

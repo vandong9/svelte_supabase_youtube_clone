@@ -2,14 +2,13 @@
 	// import './styles.scss';
 	// import '../app.scss';
 	// Your selected Skeleton theme:
-import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
+	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
 
-// This contains the bulk of Skeletons required styles:
-import '@skeletonlabs/skeleton/styles/all.css';
+	// This contains the bulk of Skeletons required styles:
+	import '@skeletonlabs/skeleton/styles/all.css';
 
-// Finally, your application's global stylesheet (sometimes labeled 'app.css')
-import '../app.scss';
-
+	// Finally, your application's global stylesheet (sometimes labeled 'app.css')
+	import '../app.scss';
 
 	import TopMenu from '../shared/controls/TopMenu.svelte';
 </script>
