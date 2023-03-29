@@ -1,6 +1,21 @@
 <div>Top Menu</div>
 <div class="top_menu">
 	<div class="top_menu_left">
+		<div class="top_menu_icon">
+			<svg
+				viewBox="0 0 24 24"
+				preserveAspectRatio="xMidYMid meet"
+				focusable="false"
+				class="style-scope yt-icon"
+				style="pointer-events: none; display: block; width: 100%; height: 100%;"
+				><g class="style-scope yt-icon"
+					><path
+						d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"
+						class="style-scope yt-icon"
+					/></g
+				></svg
+			>
+		</div>
 		<div class="youtube_icon">
 			<svg
 				viewBox="0 0 90 20"
@@ -47,12 +62,49 @@
 					></g
 				></svg
 			>
+			<span class="country_code">VN</span>
 		</div>
 	</div>
 
 	<div>middle</div>
 
-	<div>right</div>
+	<div class="top_menu_right">
+		<div class="top_menu_icon">
+			<svg
+				viewBox="0 0 24 24"
+				preserveAspectRatio="xMidYMid meet"
+				focusable="false"
+				class="style-scope yt-icon"
+				style="pointer-events: none; display: block; width: 100%; height: 100%;"
+				><g class="style-scope yt-icon"
+					><path
+						d="M14,13h-3v3H9v-3H6v-2h3V8h2v3h3V13z M17,6H3v12h14v-6.39l4,1.83V8.56l-4,1.83V6 M18,5v3.83L22,7v8l-4-1.83V19H2V5H18L18,5 z"
+						class="style-scope yt-icon"
+					/></g
+				></svg
+			>
+		</div>
+		<div class="top_menu_icon">
+			<svg
+				viewBox="0 0 24 24"
+				preserveAspectRatio="xMidYMid meet"
+				focusable="false"
+				class="style-scope yt-icon"
+				style="pointer-events: none; display: block; width: 100%; height: 100%;"
+				><g class="style-scope yt-icon"
+					><path
+						d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z"
+						class="style-scope yt-icon"
+					/></g
+				></svg
+			>
+		</div>
+		<div class="user_avatar">
+			<img
+				src="https://yt3.ggpht.com/yti/AHXOFjUYw9hiV8-ysm4DvVHw6f-RkZk-7pNiD9XRXg=s88-c-k-c0x00ffffff-no-rj-mo"
+			/>
+		</div>
+	</div>
 </div>
 
 <style lang="postcss">
@@ -68,5 +120,28 @@
 	.youtube_icon {
 		width: 120px;
 		height: 56px;
+		display: flex;
+	}
+
+	.top_menu_icon {
+		width: 24px;
+		height: 24px;
+		fill: white;
+	}
+	.country_code {
+		font-size: 10px;
+	}
+
+	.top_menu_right {
+		display: flex;
+		align-items: center;
+	}
+
+	.user_avatar {
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		display: inline-block;
+		clip-path: circle();
 	}
 </style>
